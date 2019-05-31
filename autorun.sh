@@ -7,6 +7,7 @@
 # "--run" flag: 		run only
 # "--clean" flag: 		removes generated files
 #
+mkdir -p ./bin
 
 if [ "$1" = "--cnr" ]; then
 	sel=1
